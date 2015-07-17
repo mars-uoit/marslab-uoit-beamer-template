@@ -1,0 +1,14 @@
+*.lol
+*.bbl
+*.aux
+*.out
+*.fdb*
+*.glo
+*.ist
+*.nlo
+*.glg
+*.gls
+*.nav
+*.snm
+*.vrb
+*.pdf
