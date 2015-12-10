@@ -1,0 +1,13 @@
+sudo: required
+dist: trusty
+language: generic
+
+install:
+   - sudo apt-get update
+   - sudo apt-get install -y texlive-full texlive-latex-recommended texlive-latex-extra
+   - sudo apt-get install -y texlive-science texlive-fonts-recommended texlive-fonts-extra texlive-pictures latexmk psutils
+script:
+   - make clean
+   - make
+notifications:
+  email: false
